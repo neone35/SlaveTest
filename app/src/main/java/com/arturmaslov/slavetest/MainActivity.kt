@@ -94,6 +94,7 @@ class MainActivity :
             ReceiptData.Align.CENTER,
             ReceiptData.FontSize.SINGLE
         )
+        POSHandler.getInstance().printReceipt(receiptData)
     }
 
     private fun checkBT() {
